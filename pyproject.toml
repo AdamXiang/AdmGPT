@@ -1,7 +1,7 @@
 [project]
 name = "admgpt"
 version = "0.1.0"
-description = "Add your description here"
+description = "Self-hosted ChatGPT-style assistant powered by Claude and LangGraph, with RAG over uploaded documents, web search, and long-term memory"
 readme = "README.md"
 authors = [
     { name = "Adam", email = "lavouver96@gmail.com" }
