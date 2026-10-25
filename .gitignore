@@ -6,6 +6,13 @@ __pycache__/
 # C extensions
 *.so
 
+# Memory Data
+/data/
+
+# RAG vector store and uploaded documents (created by config.py)
+/chroma_db/
+/document/
+
 # Distribution / packaging
 .Python
 build/
