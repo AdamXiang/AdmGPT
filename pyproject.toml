@@ -1,0 +1,38 @@
+[project]
+name = "admgpt"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Adam", email = "lavouver96@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "certifi>=2024.2.2",
+    "chromadb==1.5.9",
+    "docx2txt==0.9",
+    "fastapi==0.136.3",
+    "jinja2==3.1.6",
+    "langchain==1.3.2",
+    "langchain-anthropic>=1.4.4",
+    "langchain-chroma==1.1.0",
+    "langchain-core==1.4.0",
+    "langchain-google-genai==4.2.4",
+    "langchain-tavily==0.2.18",
+    "langchain-text-splitters==1.1.2",
+    "langgraph==1.2.2",
+    "langgraph-checkpoint-sqlite==3.1.0",
+    "pypdf==6.12.2",
+    "python-dotenv==1.2.2",
+    "python-multipart==0.0.29",
+    "sqlalchemy==2.0.50",
+    "tavily-python==0.7.24",
+    "uvicorn==0.48.0",
+]
+
+[project.scripts]
+admgpt = "admgpt:main"
+
+[build-system]
+requires = ["uv_build>=0.12.12,<0.13.0"]
+build-backend = "uv_build"
