@@ -126,6 +126,11 @@ To reset the app, stop the server and delete these folders.
 
 AdmGPT is meant for local, single-user use. It has no authentication. The calculator tool uses a restricted `eval`, which is not a full sandbox. Do not expose the server to untrusted users.
 
+## References
+
+- This project follows [this YouTube tutorial](https://www.youtube.com/watch?v=YIv_GDxJqbA&t=31975s).
+- The architecture was refined with [Claude](https://claude.ai), including the package layout, per-chat isolation through `thread_id`, and re-upload handling for documents.
+
 ## License
 
 [Apache License 2.0](LICENSE)
